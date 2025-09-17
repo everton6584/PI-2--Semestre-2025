@@ -18,3 +18,10 @@ Everton Rodrigues da Silva
 10-09-25
 Aleksander:
     Hoje, no meu horário de almoço, dei continuidade à documentação do projeto e início à criação do banco de dados.
+
+16-09-25
+Marcos:
+    Hoje eu criei a tela de login com html e css além de termos definido qual diagrama cada integrante vai ficar responsável.
+    Marcos:     Diagrama de Classe;
+    Wanderson:  Diagrama de Caso de Uso;
+    Aleksander: Diagrama de Sequência.
