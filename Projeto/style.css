@@ -1,0 +1,100 @@
+/* Importa a fonte do Google Fonts */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #D7CCC8, #FFF8E1); /* marrom claro e bege */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Envolve tudo para centralizar */
+  .login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Container do formulário */
+  .login-container {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #5D4037;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Logo */
+  .login-container img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Título */
+  .login-container h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  /* Campos de texto */
+  input[type="text"], input[type="password"] {
+    width: 60%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #A1887F; /* marrom claro */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #5D4037;
+  }
+  
+  /* Botão */
+  input[type="submit"] {
+    width: 50%;
+    padding: 12px;
+    background-color: #5D4037;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4E342E;
+  }
+  
+  /* Links abaixo do botão */
+  .links {
+    margin-top: 15px;
+  }
+  
+  .links a {
+    color: #5D4037;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    color: #3E2723;
+  }
