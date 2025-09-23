@@ -16,7 +16,6 @@
           <input type="submit" value="Entrar">
         </form>
         <div class="links">
-          <a href="#">Cadastrar</a>
           <a href="#">Esqueceu a senha?</a>
         </div>
       </div>   
