@@ -99,7 +99,7 @@ if (isset($conexao) && !$sucesso) {
                         <input type="password" name="password" class="form-control" placeholder="Digite sua senha" required>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-100 mt-2 login-btn">LOGIN</button>
+                    <button type="submit" class="btn btn-primary w-100 mt-2 login-btn">Login</button>
                 </form>
 
                 <div class="links text-center mt-3">
