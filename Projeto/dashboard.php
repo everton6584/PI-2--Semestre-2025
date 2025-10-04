@@ -1,5 +1,7 @@
 <?php
 
+
+
 session_start();
 
 
@@ -141,7 +143,7 @@ $usuario_logado = htmlspecialchars($_SESSION['username']);
                         <tbody>
                             <tr>
                                 <td>1001</td>
-                                <td>Marcos Firmino Rodrigues</td>
+                                <td>Marcos</td>
                                 <td><span class="badge bg-success">Ativo</span></td>
                                 <td>2025-10-02</td>
                             </tr>
@@ -150,13 +152,6 @@ $usuario_logado = htmlspecialchars($_SESSION['username']);
                                 <td>Aleksander</td>
                                 <td><span class="badge bg-warning">Pendente</span></td>
                                 <td>2025-10-01</td>
-                            </tr>
-
-                            <tr>
-                                <td>1003</td>
-                                <td>Aleksander</td>
-                                <td><span class="badge bg-warning">Pendente</span></td>
-                                <td>2025-05-01</td>
                             </tr>
                         </tbody>
                     </table>
