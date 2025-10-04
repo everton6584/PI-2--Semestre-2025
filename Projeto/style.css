@@ -1,100 +1,99 @@
-/* Importa a fonte do Google Fonts */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Quicksand', sans-serif;
-    background: linear-gradient(135deg, #D7CCC8, #FFF8E1); /* marrom claro e bege */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Envolve tudo para centralizar */
-  .login-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Container do formulário */
-  .login-container {
-    background: #ffffff;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 500px;
-    padding: 40px 30px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    text-align: center;
-    color: #5D4037;
-    transition: transform 0.3s ease;
-  }
-  
-  .login-container:hover {
-    transform: scale(1.02);
-  }
-  
-  /* Logo */
-  .login-container img {
-    width: 200px;
-    margin-bottom: 20px;
-  }
-  
-  /* Título */
-  .login-container h2 {
-    margin-bottom: 25px;
-    font-weight: 600;
-  }
-  
-  /* Campos de texto */
-  input[type="text"], input[type="password"] {
-    width: 60%;
-    padding: 12px 15px;
-    margin-bottom: 20px;
-    border: 2px solid #A1887F; /* marrom claro */
-    border-radius: 60px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s;
-  }
-  
-  input[type="text"]:focus, input[type="password"]:focus {
-    border-color: #5D4037;
-  }
-  
-  /* Botão */
-  input[type="submit"] {
-    width: 50%;
-    padding: 12px;
-    background-color: #5D4037;
-    border: none;
-    border-radius: 60px;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #4E342E;
-  }
-  
-  /* Links abaixo do botão */
-  .links {
-    margin-top: 15px;
-  }
-  
-  .links a {
-    color: #5D4037;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 0 10px;
-    transition: color 0.3s;
-  }
-  
-  .links a:hover {
-    color: #3E2723;
-  }
+  /* Variáveis CSS para cores */
+        :root {
+            --primeira-cor: #6f4e37;
+            --cor-escura: #3c2c1a;
+            --cor-texto: #4b3621;
+            --cor-inicio: #474747ff;
+            --cor-fim: #3c2c1a;
+        }
+        
+        /* Estilos do corpo para centralizar o container de login */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            /* Centraliza horizontalmente */
+            justify-content: center;
+            /* Centraliza verticalmente */
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--cor-inicio)0%, var(--cor-fim)100%);
+        }
+
+        /* Container principal do formulário */
+        .login-container{
+            background-color: #e9d4afff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); 
+            width: 350px;
+            /* Garante que o texto, incluindo o título e a mensagem de status, esteja centralizado */
+            text-align: center; 
+        }
+
+        /* Estilo do título H2 */
+        h2{
+            color: var(--primeira-cor);
+            margin-bottom: 30px;
+        }
+
+        /* Estilo para a mensagem de status que será exibida pelo PHP */
+        .status-message {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        /* Agrupamento de campos de input */
+        .input-group{
+            margin-bottom: 20px;
+            text-align: left; /* Retorna o alinhamento para a esquerda apenas dentro dos grupos */
+            position: relative; /* Necessário para posicionar o ícone */
+        }
+
+        /* Campo de texto e senha */
+        .input-group input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            padding-left: 40px; /* Espaço para o ícone */
+        }
+
+        /* Ícones dentro dos campos de input */
+        .input-group span{
+            position: absolute;
+            padding: 10px;
+            color: var(--cor-texto);
+            /* Alinha o ícone verticalmente */
+            top: 0; 
+            left: 0;
+        }
+
+        /* Botão de login */
+        .login-btn{
+            width: 100%;
+            padding: 12px;
+            background-color: var(--primeira-cor);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn:hover{
+            background-color: var(--cor-escura);
+        }
+
+        /* Links adicionais (Esqueci a Senha, etc.) */
+        .links a{
+            color: var(--cor-texto);
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            margin-top: 15px;
+        }
