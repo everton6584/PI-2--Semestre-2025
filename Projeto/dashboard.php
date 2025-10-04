@@ -79,7 +79,7 @@ $usuario_logado = htmlspecialchars($_SESSION['username']);
                      <li class="nav-item">
                         <a class="nav-link" href="#">
                             <i class="fas fa-users me-2"></i>
-                            Cadastrar Novo Funcionario
+                            Cadastrar Funcionario
                         </a>
                     </li>
                     <li class="nav-item">
