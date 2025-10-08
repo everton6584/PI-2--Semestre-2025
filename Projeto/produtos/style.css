@@ -1,17 +1,15 @@
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e9ecef;
-    padding: 0; 
-    margin: 0; 
-    overflow-x: hidden; 
+    background-color: #e9ecef; 
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     max-width: 800px;
     margin: 10px auto;
     background: #ffffff;
-    padding: 4px 30px;
+    padding: 4px 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -57,9 +55,9 @@ legend {
     margin-bottom: 10px;
 }
 
-.form-group.col-50 { flex: 1 1 calc(50% - 10px); } 
-.form-group.col-30 {  flex: 1 1 calc(20% - 14px);  } 
-.form-group.col-20 { flex: 1 1 calc(16% - 16px); } 
+.form-group.col-50 { flex: 1 1 calc(50% - 10px); }
+.form-group.col-30 { flex: 1 1 calc(30% - 14px); }
+.form-group.col-20 { flex: 1 1 calc(20% - 16px); }
 
 label {
     margin-bottom: 6px;
@@ -68,12 +66,10 @@ label {
 }
 
 input[type="text"],
-input[type="number"],
 input[type="email"],
 input[type="date"],
-select, 
 textarea {
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 6px;
     width: 100%;
@@ -82,7 +78,6 @@ textarea {
 }
 
 input:focus,
-select:focus, 
 textarea:focus {
     border-color: #007bff;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -94,28 +89,16 @@ textarea {
     min-height: 80px;
 }
 
-.checkbox-container {
-    display: flex;
-    gap: 30px; 
-    margin-top: 15px;
-}
-
 .checkbox-group {
     display: flex;
     align-items: center;
-}
-
-.checkbox-group label {
-    font-weight: normal;
-    margin-left: 5px; 
-    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .checkbox-group input[type="checkbox"] {
     width: auto;
-    margin: 0;
+    margin-right: 0px;
 }
-
 
 .button-container {
     display: flex;
@@ -163,7 +146,6 @@ button {
     .form-group.col-50,
     .form-group.col-30,
     .form-group.col-20 {
-        
         flex: 1 1 100%;
     }
     
