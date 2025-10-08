@@ -85,7 +85,7 @@ $usuario_logado = htmlspecialchars($_SESSION['username']);
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <i class="fas fa-chart-line me-2"></i>
-                            Relatórios
+                            Relatórios Semanais
                         </a>
                     </li>
                 </ul>

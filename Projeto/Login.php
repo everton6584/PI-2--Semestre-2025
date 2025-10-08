@@ -86,7 +86,7 @@ if (isset($conexao) && !$sucesso) {
             <?php endif; ?>
 
             <?php if (!$mensagem_status): ?>
-                <h2 class="card-title text-center mb-4">User Login</h2> 
+                <h2 class="card-title text-center mb-4"> USER LOGIN</h2> 
 
                 <form action="login.php" method="POST">
                     <div class="mb-3 input-group">
