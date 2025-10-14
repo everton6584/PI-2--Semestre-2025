@@ -25,3 +25,9 @@ Marcos:
     Marcos:     Diagrama de Classe;
     Wanderson:  Diagrama de Caso de Uso;
     Aleksander: Diagrama de Sequência.
+
+13-10-25
+Marcos:
+   Hoje, adiantei bastente o back-end do nosso PI, coloquei as funcionalidades de cadastra clientes, listar, excluir e editar 
+   e fiz isso também com produtos, fiz um Ajax, para quando uma pessoa quiser usar as funciolaidades da sidebar não ficar trocando de tela, e sim só mudará o contéudo da dashbord
+   agilizando o processo, e por fim coloquei alguns cards para a pessoa ter um acesso mais rapido quando ela quiser e estiver com pressa, além de adicionar a buscar pelo cliente pelo nome,cpf ou sobrenome.
