@@ -25,3 +25,10 @@ Marcos:
     Marcos:     Diagrama de Classe;
     Wanderson:  Diagrama de Caso de Uso;
     Aleksander: Diagrama de Sequência.
+
+13-10-25
+Aleksander:
+    Pode parecer que estamos sumidos, mas fizemos muito progresso.
+    Criamos durante esses dias, nossos diagramas de sequência, o banco de dados lógico e dicionário de dados, tanto o de tabelas
+quanto o de atributos das tabelas.
+    Criamos também algumas telas, o logotipo
